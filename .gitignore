@@ -1,6 +1,10 @@
 venv/
 __pycache__/
-attendance.csv
-trainer/trainer.yml
-dataset/*
 *.pyc
+
+# Keep attendance and trained model data visible in the repo
+!attendance.csv
+!trainer/
+!trainer/trainer.yml
+!dataset/
+!dataset/**
